@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{                    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: black;
+}
+.container{
+    border-radius: 2rem;
+    background-color:rgb(199, 107, 230);
+    margin-top: 3rem;
+    border: 1px black solid;
+    box-shadow: 0 0 20px rgb(199, 107, 230);
+    transition: 0.5s;
+}
+.container:hover{
+    
+    box-shadow: 0 0 40px rgb(199, 107, 230);
+}
+.container .image-container{
+display: flex;
+justify-content: center;
+
+}
+.image-container #pic{
+    height: 200px;
+    width: 200px;
+    background-position: center center;
+}
+
+
+.container .heading-container{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: -2rem;
+}
+.heading-container .heading{
+    text-shadow: 0 0 30px white;
+}
+.heading:hover{
+    text-shadow: 0 0 30px chocolate;
+}
+.container .suggestion-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    color:white;
+    text-decoration: underline 2px;
+    text-shadow:  0 0 2px black;
+    
+}
+
+.container .words-container{
+    display: flex;
+    justify-content: center;
+}
+.words-container .words{
+    height: 12rem;
+    width: 50rem;
+    border: 2px black solid;
+    font-size: 2rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.btn-container .btn{
+    height: 3rem;
+    width: 12rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: cyan;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 40px cyan;
+    
+}
